@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+ --Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+
+}
+
+body{
+  font-size: 15px;  
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--Very-Light-Gray);
+}
+
+.container .heading1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.small-text{
+   width: 34%;
+   text-align: center;
+}
+
+.light-text{
+    font-weight: 200;
+    color: var(--Very-Dark-Blue);
+}
+
+.bold-text{
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 15px;
+}
+
+.boxes{
+    
+    padding: 30px 40px;
+    width: 100%;
+    display: flex;
+}
+
+
+.box1{
+    /* background: pink; */
+    padding: 80px 40px;
+    /* border-radius: 10px;
+    border-top: 5px solid cyan;   */
+    margin: 0.5rem;  
+    width: 35%;  
+    align-items: center;
+    justify-items: center; 
+}
+
+.box-1{
+    background: white;
+    border-radius: 10px;
+    border-top: 5px solid cyan;
+    padding: 120px 20px;
+    margin-top: 100px;
+   box-shadow:  -1px 5px 11px 0px rgba(125,122,122,0.75);
+}
+
+.box-text1{
+    width: 90%;
+    color: var(--Grayish-Blue);
+}
+
+.img{
+    display: flex;
+    float: right;
+    
+}
+
+
+.box2{
+    padding: 100px 40px;
+    width: 35%;  
+}
+
+.box-2{
+    background: white;
+    border-radius: 10px;
+    border-top: 5px solid red;
+    padding: 100px 20px;
+    box-shadow: -1px 5px 11px 0px rgba(125,122,122,0.75);
+}
+
+.box-3{
+    background: white;
+    border-radius: 10px;
+    border-top: 5px solid orange;
+    padding: 120px 20px;
+    margin-top: 2rem;
+   box-shadow:  -1px 5px 11px 0px rgba(125,122,122,0.75);
+}
+
+.box-4{
+  border-top: 5px solid blue;
+    
+}
